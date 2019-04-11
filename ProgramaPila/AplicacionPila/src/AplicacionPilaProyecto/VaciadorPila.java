@@ -5,11 +5,11 @@ public class VaciadorPila<X> {
     
     public VaciadorPila(){}
 
-    public X[] VaciarPila( X[] elementosPila){   
-        
+    
+    //Método para agregar los elementos a la pila, se invoca cuando el boton Agregar es precionado. 
+    public X[] VaciarPila( X[] elementosPila){           
         X [] arregloVaciado = (X[]) elementosPila;
         elementosPila = null;   
-        
         return elementosPila;
     }
 }
