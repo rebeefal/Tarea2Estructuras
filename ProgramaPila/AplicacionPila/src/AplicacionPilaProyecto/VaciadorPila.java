@@ -10,6 +10,6 @@ public class VaciadorPila<X> {
     public X[] VaciarPila( X[] elementosPila){           
         X [] arregloVaciado = (X[]) elementosPila;
         elementosPila = null;   
-        return elementosPila;
+        return elementosPila; // devuelve la pila vacia o con el valor null. 
     }
 }
